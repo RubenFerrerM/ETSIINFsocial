@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.6.2  Built on : Apr 17, 2012 (05:33:49 IST) -->
+<serviceGroup>
+    <service name="ETSIINFSocial" scope="soapsession">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="es.upm.etsiinf.sos.ETSIINFSocial.ETSIINFSocialMessageReceiverInOnly"/>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="es.upm.etsiinf.sos.ETSIINFSocial.ETSIINFSocialMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">es.upm.etsiinf.sos.ETSIINFSocial.ETSIINFSocialSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="addUser" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:addUser</actionMapping>
+            <outputActionMapping>urn:addUserResponse</outputActionMapping>
+        </operation>
+        <operation name="removeUser" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:removeUser</actionMapping>
+            <outputActionMapping>urn:removeUserResponse</outputActionMapping>
+        </operation>
+        <operation name="logout" mep="http://www.w3.org/ns/wsdl/in-only" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:logout</actionMapping>
+            <outputActionMapping>urn:logoutResponse</outputActionMapping>
+        </operation>
+        <operation name="addFriend" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:addFriend</actionMapping>
+            <outputActionMapping>urn:addFriendResponse</outputActionMapping>
+        </operation>
+        <operation name="getMyFriendStates" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:getMyFriendStates</actionMapping>
+            <outputActionMapping>urn:getMyFriendStatesResponse</outputActionMapping>
+        </operation>
+        <operation name="removeFriend" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:removeFriend</actionMapping>
+            <outputActionMapping>urn:removeFriendResponse</outputActionMapping>
+        </operation>
+        <operation name="publishState" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:publishState</actionMapping>
+            <outputActionMapping>urn:publishStateResponse</outputActionMapping>
+        </operation>
+        <operation name="getMyFriends" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:getMyFriends</actionMapping>
+            <outputActionMapping>urn:getMyFriendsResponse</outputActionMapping>
+        </operation>
+        <operation name="changePassword" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:changePassword</actionMapping>
+            <outputActionMapping>urn:changePasswordResponse</outputActionMapping>
+        </operation>
+        <operation name="login" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:login</actionMapping>
+            <outputActionMapping>urn:loginResponse</outputActionMapping>
+        </operation>
+        <operation name="getMyStates" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://sos.etsiinf.upm.es">
+            <actionMapping>urn:getMyStates</actionMapping>
+            <outputActionMapping>urn:getMyStatesResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
